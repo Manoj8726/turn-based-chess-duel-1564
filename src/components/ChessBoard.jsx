@@ -1,8 +1,7 @@
-
 import { useState, useEffect } from 'react';
 import ChessPiece from './ChessPiece';
 import { isValidMove } from '../utils/chessRules';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 const initialBoard = [
   ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
